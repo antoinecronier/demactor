@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:harmony="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TextView
+        android:id="@+id/user_nafghme1_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/user_nafghme1_label"/>
+    <EditText
+        android:id="@+id/user_nafghme1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_below="@+id/user_nafghme1_label" />
+    <TextView
+        android:id="@+id/user_surnfghame1_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_nafghme1"
+        android:text="@string/user_surnfghame1_label"/>
+    <EditText
+        android:id="@+id/user_surnfghame1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_below="@+id/user_surnfghame1_label" />
+    <TextView
+        android:id="@+id/user_scofghre1_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_surnfghame1"
+        android:text="@string/user_scofghre1_label"/>
+    <com.tactfactory.demactor.harmony.widget.SingleEntityWidget
+        android:id="@+id/user_scofghre1_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_scofghre1_label" />
+    <TextView
+        android:id="@+id/user_jocfghkey1_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_scofghre1_button"
+        android:text="@string/user_jocfghkey1_label"/>
+    <com.tactfactory.demactor.harmony.widget.SingleEntityWidget
+        android:id="@+id/user_jocfghkey1_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_jocfghkey1_label" />
+</RelativeLayout>
